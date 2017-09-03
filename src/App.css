@@ -1,0 +1,42 @@
+.App {
+  margin: 10px;
+}
+
+.form-group.clipboard input {
+  display: table-cell;
+}
+
+.form-group.clipboard button {
+  display: table-cell;
+  position: relative;
+  right: 0px;
+  width: 36px;
+  margin-left: -36px;
+  padding: 6px 10px 6px 10px;
+  line-height: 20px;
+  background-color: #eee;
+  background-clip: border-box;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid #ccc;
+}
+
+.form-group.clipboard:last-child {
+  margin-bottom: 0;
+}
+
+.form-group.clipboard button:hover {
+  background-color: #ddd;
+}
+
+.form-group.clipboard button:active {
+  background-color: #ccc;
+}
+
+.form-group.clipboard button:focus {
+  /*outline-style: none;*/
+}
+
+.btn-suggestions {
+  padding: 0;
+  margin-bottom: 10px;
+}
