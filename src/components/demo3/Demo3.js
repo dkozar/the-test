@@ -172,7 +172,7 @@ export default class Demo3 extends Component {
 
                 { /* ----- Results text area ----- */ }
                 <FormGroup bsSize='large'>
-                    <ControlLabel>Processed result</ControlLabel>
+                    <ControlLabel>Processed result (array of user_ids)</ControlLabel>
                     <FormControl inputRef={(dom) => { this.outputTextArea = dom; }}
                                  value={this.state.output}
                                  componentClass="textarea"

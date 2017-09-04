@@ -116,7 +116,7 @@ export default class Demo2 extends Component {
 
                 { /* ----- Output ----- */ }
                 <FormGroup bsSize='large'>
-                    <ControlLabel>Result as an array of user_ids</ControlLabel>
+                    <ControlLabel>Output array (flattened)</ControlLabel>
                     <FormControl inputRef={(dom) => { this.outputTextArea = dom; }}
                                  value={this.state.output}
                                  componentClass="textarea"
