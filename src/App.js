@@ -14,7 +14,7 @@ export default class App extends Component {
         return (
             <div className="App">
                 <Breadcrumb>
-                    <BreadcrumbItem href="#">
+                    <BreadcrumbItem href='#/'>
                         The test
                     </BreadcrumbItem>
                     <BreadcrumbItem active>
